@@ -1,6 +1,6 @@
 # Import section
-from pygame import image, draw, font, mixer
 from random import randint, random
+from pygame import image, draw, font, mixer
 
 # Set mixer
 mixer.init(buffer=512)  # Default 4096, but smaller makes sound less laggy
